@@ -41,7 +41,7 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "always_on "             # 预设模板名称（见上方说明）
 
 
 # ===============================================================
@@ -55,28 +55,34 @@ schedule:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
-    - id: "toutiao"
-      name: "今日头条"
-    - id: "baidu"
-      name: "百度热搜"
-    - id: "wallstreetcn-hot"
-      name: "华尔街见闻"
-    - id: "thepaper"
-      name: "澎湃新闻"
-    - id: "bilibili-hot-search"
-      name: "bilibili 热搜"
-    - id: "cls-hot"
-      name: "财联社热门"
-    - id: "ifeng"
-      name: "凤凰网"
-    - id: "tieba"
-      name: "贴吧"
-    - id: "weibo"
-      name: "微博"
-    - id: "douyin"
-      name: "抖音"
-    - id: "zhihu"
-      name: "知乎"
+ - id: "sspai"          # 少数派 - 独立科技社区
+  name: "少数派"
+- id: "jiqizhixin"     # 机器之心 - AI专业媒体  
+  name: "机器之心"
+- id: "newzhiyuan"     # 新智元 - AI行业媒体
+  name: "新智元"
+- id: "aibase"         # AI工具集 - AI工具导航
+  name: "AI工具集"
+- id: "bbc"            # BBC中文网
+  name: "BBC中文"
+- id: "nyt"            # 纽约时报中文网  
+  name: "纽约时报中文"
+- id: "caixin"         # 财新网 - 独立财经媒体
+  name: "财新网"
+- id: "guancha"        # 观察者网 - 综合时政新闻
+  name: "观察者网"
+- id: "eastmoney"      # 东方财富网 - 财经股市
+  name: "东方财富"
+- id: "wallstreetcn"   # 华尔街见闻 - 财经媒体
+  name: "华尔街见闻"
+- id: "xueqiu"         # 雪球 - 投资社区
+  name: "雪球"
+- id: "yicai"          # 第一财经
+  name: "第一财经"
+- id: "36kr"           # 36氪 - 科技商业媒体
+  name: "36氪"
+- id: "jiemian"        # 界面新闻 - 财经商业媒体
+  name: "界面新闻"
 
 
 
